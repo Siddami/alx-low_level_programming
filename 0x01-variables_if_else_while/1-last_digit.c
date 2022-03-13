@@ -30,7 +30,6 @@ else
 printf("last digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
 }
 
-
 return (0);
 
 }
