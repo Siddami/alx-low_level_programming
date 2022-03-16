@@ -1,19 +1,26 @@
-#include <stdio.h>
+#include "holberton.h"
 
 /**
- * main - program that prints all single digit numbers of base 10 starting from 
- * All your circle should be in the main function.
- * Return: 0
+ * print_sign - function that prints te sign of a number..
+ * @n: The input number to check
+ * Return: int.
  */
 
-int main(void)
+int print_sign(int n)
 {
-	int n;
-	while(n < 10)
+	if (n > 0)
 	{
-		printf("%d", n);
-		n += 1;
+		_putchar(43);
+		return (1);
 	}
-	printf("\n");
-	return (0);
+	else if (n < 0)
+	{
+		_putchar(45);
+		return (-1);
+	}
+	else
+	{
+		_putchar(48);
+		return (0);
+	}
 }
