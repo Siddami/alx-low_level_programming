@@ -14,7 +14,7 @@ int main(void)
 
 	while (n < 50)
 	{
-		fin = j + i;
+		fib = j + i;
 		if (n != 49)
 			printf("%ld, ", fib);
 		else
