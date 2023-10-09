@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - A program that prints digit from 0 to 10
+ * main - A program that prints digit from zero to ten
  *
- * Return: always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
